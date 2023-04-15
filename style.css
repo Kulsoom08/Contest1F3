@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+
+body{
+    background-color: black;
+    color: white;
+    margin: 2rem;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items:flex-start;
+    margin-bottom:2rem ;
+    font-size: 1.5rem;
+}
+.details{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center;
+    gap: 2rem;
+}
+.inp{
+   
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items:flex-start;
+    gap: 1rem;
+    padding: 20px 10px;
+}
+.inp input{
+    background-color: black;
+    border: 2px solid #dfd9d9;
+    padding: 20px;
+    width:28vw;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.btn{
+    font-size: 1.5rem;
+    padding:18px;
+    width:10vw;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+.head2{
+    font-size: 2rem;
+    margin: 1.3rem;
+}
+.added_emp1{
+    color: #dfd9d9;
+    margin: 1.3rem;
+}
+.added_emp{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items:center;
+    margin-bottom:2rem ;
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+
+.added_emp li{
+    
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+.added_emp button{
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+ol{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25vw;
+}
